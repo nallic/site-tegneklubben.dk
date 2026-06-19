@@ -1,0 +1,53 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Tegneklubben</h3>
+      <p>Vi samler tegne- og maleentusiaster i København. Find arrangementer, mød ligesindede og del dine oplevelser.</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Forside</a></li>
+        <li><a href="{{ '/arrangementer/' | relative_url }}">Arrangementer</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">Om Tegneklubben</a></li>
+        <li><a href="{{ '/kontakt/' | relative_url }}">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Kontakt</h4>
+      <p>📧 <a href="mailto:kontakt@tegneklubben.dk">kontakt@tegneklubben.dk</a></p>
+      <div class="footer-social">
+        {% if site.social.instagram %}
+        <a href="{{ site.social.instagram }}" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        {% endif %}
+        {% if site.social.facebook %}
+        <a href="{{ site.social.facebook }}" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <h4>Nyhedsbrev</h4>
+      <p>Få besked om nye arrangementer og tegnetips.</p>
+      <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-subscribe">
+        {{ site.mailing_list.button_text }}
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ site.time | date: '%Y' }} Tegneklubben. Alle rettigheder forbeholdes.</p>
+  </div>
+</footer>

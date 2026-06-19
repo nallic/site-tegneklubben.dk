@@ -1,0 +1,27 @@
+<nav class="site-navigation" aria-label="Hovednavigation">
+  <div class="nav-container">
+    <span class="nav-brand">
+      <a href="{{ '/' | relative_url }}">Tegneklubben</a>
+    </span>
+    <button class="nav-toggle" aria-label="Åbn navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}"
+           class="{% if page.url == item.url %}nav-active{% endif %}">
+          {{ item.title }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function() {
+    this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
+    document.querySelector('.nav-links').classList.toggle('nav-open');
+  });
+</script>

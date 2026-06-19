@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'da' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Tegneklubben</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute }}">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+</head>
+
+<body>
+  {% include navigation.html %}
+
+  <main class="site-main event-page">
+    <div class="event-container">
+      <a href="{{ '/arrangementer/' | relative_url }}" class="back-link">&larr; Tilbage til arrangementer</a>
+
+      <article class="event-article">
+        {% if page.image %}
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="event-image">
+        {% endif %}
+
+        <header class="event-header">
+          <h1>{{ page.title }}</h1>
+          <div class="event-meta">
+            {% if page.date %}
+            <span class="event-date">📅 {{ page.date | date: "%d.%m.%Y" }}</span>
+            {% endif %}
+            {% if page.tid %}
+            <span class="event-time">🕐 {{ page.tid }}</span>
+            {% endif %}
+            {% if page.location %}
+            <span class="event-location">📍 {{ page.location }}</span>
+            {% endif %}
+          </div>
+        </header>
+
+        <div class="event-content">
+          {{ content }}
+        </div>
+
+        {% if page.organizer or page.contact %}
+        <aside class="event-organizer">
+          <h2>Arrangør</h2>
+          {% if page.organizer %}
+          <p><strong>{{ page.organizer }}</strong></p>
+          {% endif %}
+          {% if page.contact %}
+          <p><a href="mailto:{{ page.contact }}">{{ page.contact }}</a></p>
+          {% endif %}
+        </aside>
+        {% endif %}
+      </article>
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+
+</html>

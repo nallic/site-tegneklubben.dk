@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'da' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Tegneklubben</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute }}">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+</head>
+
+<body>
+  {% include navigation.html %}
+
+  <main class="site-main">
+    <div class="page-wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+
+</html>
