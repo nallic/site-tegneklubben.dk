@@ -53,11 +53,8 @@ mailing_list:
   button_text: Tilmeld Nyhedsbrev
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# GitHub Pages manages the theme automatically (Minima)
+# Plugins are managed by the github-pages gem — do NOT list them here
 
 # Feed settings (Danish)
 feed:
