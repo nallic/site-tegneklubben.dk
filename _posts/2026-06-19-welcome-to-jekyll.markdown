@@ -1,28 +1,30 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Velkommen til Tegneklubben!"
 date:   2026-06-19 21:05:37 +0200
-categories: jekyll update
+lang: da
+categories: jekyll opdatering
+excerpt: Velkommen til Tegneklubbens nye blog!
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Du finder dette indlæg i din `_posts` mappe. Rediger det og genbyg siden for at se dine ændringer. Den mest almindelige måde at genbygge siden på er at køre `jekyll serve`, som starter en webserver og genopretterer din side, når en fil opdateres.
 
-Jekyll requires blog post files to be named according to the following format:
+Jekyll kræver, at blogindlæg filer er navngivet efter følgende format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+`ÅR-MÅN-DAG-titel.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hvor `ÅR` er et fire-cifret tal, `MÅNED` og `DAG` er to-cifrede tal, og `MARKUP` er filtypenavnet. Derefter skal du inkludere den nødvendige front matter. Kig på kilden til dette indlæg for at få en idé om, hvordan det fungerer.
 
-Jekyll also offers powerful support for code snippets:
+Jekyll tilbyder også stærk understøttelse af kode-udsnit:
 
 {% highlight ruby %}
 def print_hi(name)
-  puts "Hi, #{name}"
+  puts "Hej, #{name}"
 end
 print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+#=> udskriver 'Hej, Tom' til STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Tjek [Jekylls dokumentation][jekyll-docs] for mere info om, hvordan du får mest ud af Jekyll. Indsend alle fejl/funktionønsker på [Jekylls GitHub repo][jekyll-gh]. Hvis du har spørgsmål, kan du spørge på [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
