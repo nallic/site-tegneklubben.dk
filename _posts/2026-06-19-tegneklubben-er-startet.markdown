@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Tegneklubben Er Startet!
-excerpt: Velkommen til Tegneklubbens nye hjemmeside. Vi samler tegne- og maleentusiaster i København.
+excerpt: Velkommen til Tegneklubbens nye hjemmeside. Vi samler tegne- og maleentusiaster.
 lang: da
 ---
 
 ## Velkommen til Tegneklubben!
 
-Vi er glade for at kunne præsentere vores nye hjemmeside — et centralt sted for alle tegne- og maleentusiaster i København.
+Vi er glade for at kunne præsentere vores nye hjemmeside — et centralt sted for alle tegne- og maleentusiaster.
 
 ### Hvad kan du finde her?
 

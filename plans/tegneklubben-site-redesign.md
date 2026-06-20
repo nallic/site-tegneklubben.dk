@@ -2,7 +2,7 @@
 
 ## Overview
 
-This plan transforms the Tegneklubben Jekyll site from a generic Minima template into a functional event hub and community platform for drawing/painting enthusiasts in Copenhagen.
+This plan transforms the Tegneklubben Jekyll site from a generic Minima template into a functional event hub and community platform for drawing/painting enthusiasts.
 
 ---
 
@@ -52,8 +52,8 @@ lang: da
 ---
 
 # Hero Section
-## Tegneklubben København
-Tegne- og malearrangementer i København — find fællesskab og inspiration.
+## Tegneklubben
+Tegne- og malearrangementer — find fællesskab og inspiration.
 
 [CTA Button: Tilmeld Nyhedsbrev]
 
@@ -62,7 +62,7 @@ Tegne- og malearrangementer i København — find fællesskab og inspiration.
 
 # Hvad Vi Gør
 Three-column layout:
-1. Find arrangementer — Oversigt over tegne- og malebegivenheder i København
+1. Find arrangementer — Oversigt over tegne- og malebegivenheder
 2. Mød ligesindede — Deltag i fælles tegnestunder og netværk
 3. Del erfaringer — Lær af andres teknikker og inspiration
 
@@ -129,7 +129,7 @@ Event page structure:
 layout: event
 title: Eksempel Arrangement
 date: 2026-07-01
-location: København
+location: [At angive]
 description: Beskrivelse af arrangementet.
 image: /assets/images/event-placeholder.jpg
 organizer: Navn
@@ -263,7 +263,7 @@ Custom styling for:
 **File:** `_includes/footer.html`
 
 Footer content:
-- Tegneklubben København logo/name
+- Tegneklubben logo/name
 - Email: kontakt@tegneklubben.dk
 - Social media icons (Instagram, Facebook)
 - Quick links: Forside, Arrangementer, Om os, Kontakt

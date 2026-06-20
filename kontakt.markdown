@@ -54,7 +54,7 @@ lang: da
 
   <section class="contact-section">
     <h2>Arrangementstilbud</h2>
-    <p>Kender du et tegne- eller malearrangement i København, som Tegneklubben bør vide om? Send os dine detaljer!</p>
+    <p>Kender du et tegne- eller malearrangement, som Tegneklubben bør vide om? Send os dine detaljer!</p>
     <a href="mailto:kontakt@tegneklubben.dk?subject=Arrangementstilbud" class="btn btn-primary">Send Arrangementstilbud</a>
   </section>
 </div>

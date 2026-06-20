@@ -17,7 +17,7 @@ lang: da
   <section class="about-section">
     <h2>Vores Mål</h2>
     <ul>
-      <li><strong>Saml arrangementer</strong> — Et centralt sted for alle tegne- og malebegivenheder i København</li>
+      <li><strong>Saml arrangementer</strong> — Et centralt sted for alle tegne- og malebegivenheder</li>
       <li><strong>Skab fællesskab</strong> — Mulighed for at møde ligesindede og danne tegne-grupper</li>
       <li><strong>Del viden</strong> — Arranger kurser, workshops og udflugter til kunststeder</li>
       <li><strong>Inspirere</strong> — Motivere hinanden til at tegne og male mere</li>

@@ -8,7 +8,7 @@ lang: da
 <section class="hero">
   <div class="hero-content">
     <h1>Tegneklubben</h1>
-    <p class="hero-tagline">Tegne- og malearrangementer i København — find fællesskab og inspiration.</p>
+    <p class="hero-tagline">Tegne- og malearrangementer — find fællesskab og inspiration.</p>
     <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-primary">
       {{ site.mailing_list.button_text }}
     </a>
@@ -57,7 +57,7 @@ lang: da
       <div class="mission-card">
         <div class="mission-icon">&#127912;</div>
         <h3>Find Arrangementer</h3>
-        <p>Oversigt over alle tegne- og malebegivenheder i København — ét sted.</p>
+        <p>Oversigt over alle tegne- og malebegivenheder — ét sted.</p>
       </div>
       <div class="mission-card">
         <div class="mission-icon">&#128101;</div>
@@ -98,7 +98,7 @@ lang: da
 <section class="section newsletter">
   <div class="container">
     <h2>Tilmeld Nyhedsbrevet</h2>
-    <p>Få besked om nye tegne- og malearrangementer i København. Vi sender kun relevant indhold — ingen spam.</p>
+    <p>Få besked om nye tegne- og malearrangementer. Vi sender kun relevant indhold — ingen spam.</p>
     <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-primary btn-large">
       {{ site.mailing_list.button_text }}
     </a>

@@ -53,6 +53,7 @@ mailing_list:
   button_text: Tilmeld Nyhedsbrev
 
 # Build settings
+future: true
 theme: minima
 
 # Plugins
@@ -66,7 +67,7 @@ feed:
   locale: da-DK
   title: Tegneklubben
   subtitle: >-
-    Tegne- og malearrangementer i København — find fællesskab og inspiration.
+    Tegne- og malearrangementer — find fællesskab og inspiration.
 
 # Exclude from processing.
 exclude:

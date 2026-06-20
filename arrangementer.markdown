@@ -7,7 +7,7 @@ lang: da
 
 <div class="events-page">
   <h1>Arrangementer</h1>
-  <p class="page-intro">Oversigt over tegne- og malearrangementer i København. Kommande events først, efterfulgt af tidligere arrangementer.</p>
+  <p class="page-intro">Oversigt over tegne- og malearrangementer. Kommande events først, efterfulgt af tidligere arrangementer.</p>
 
   <!-- Kommande Arrangementer -->
   <section class="events-section">
@@ -70,7 +70,7 @@ lang: da
   <!-- Submit Event -->
   <section class="events-section submit-event">
     <h2>Har Du Et Arrangement?</h2>
-    <p>Kender du et tegne- eller malearrangement i København, som vi bør vide om? Send os en besked!</p>
+    <p>Kender du et tegne- eller malearrangement, som vi bør vide om? Send os en besked!</p>
     <a href="mailto:kontakt@tegneklubben.dk?subject=Arrangementstilbud" class="btn btn-secondary">Send Arrangementstilbud</a>
   </section>
 </div>
