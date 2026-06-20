@@ -15,10 +15,10 @@ lang: da
   </div>
 </section>
 
-<!-- Kommande Arrangementer -->
+<!-- Kommende Arrangementer -->
 <section class="section events-preview">
   <div class="container">
-    <h2>Kommande Arrangementer</h2>
+    <h2>Kommende Arrangementer</h2>
     <div class="event-cards">
       {% assign future_events = site.events | where_exp: "event", "event.date >= site.time" | sort: "date" %}
       {% if future_events.size > 0 %}
@@ -40,7 +40,7 @@ lang: da
           </div>
         {% endfor %}
       {% else %}
-        <p class="no-events">Der er pt. ingen kommande arrangementer. Tilmeld nyhedsbrevet for at være den første der hører om nye events!</p>
+        <p class="no-events">Der er pt. ingen Kommende arrangementer. Tilmeld nyhedsbrevet for at være den første der hører om nye events!</p>
       {% endif %}
     </div>
     <div class="section-cta">

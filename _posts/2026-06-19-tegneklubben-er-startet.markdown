@@ -7,7 +7,7 @@ lang: da
 
 ## Velkommen til Tegneklubben!
 
-Vi er glade for at kunne præsentere vores nye hjemmeside — et centralt sted for alle tegne- og maleentusiaster.
+Vi er glade for at kunne præsentere vores nye hjemmeside — der forhåbentlig kan blive et centralt sted for alle tegne- og maleentusiaster.
 
 ### Hvad kan du finde her?
 
@@ -17,7 +17,13 @@ Vi er glade for at kunne præsentere vores nye hjemmeside — et centralt sted f
 
 ### Hvem er vi?
 
-Vi er en gruppe af tegne- og maleentusiaster, der tror på at kunst bedst deles. Uanset om du er nybegynder eller erfaren kunstner, er du velkommen hos os.
+Vi er en gruppe af tegne- og maleentusiaster, der fik ideen til at mødes og tegne sammen, efter vi havde været på et FOF kursus i illustrerede fortællinger. 
+Vi syntes der manglede en noget organiseret hvor folk mødes med interessen i at tegne og fortælle historier.
+
+Indtil videre er vi ikke så mange, men vi kan blive flere, hvis du vil være med ! - Vi starter med at mødes på biblioteker/cafeer og lign. Måske kan vi også 
+engang få lov at låne mere faste lokaler.
+
+Vi er først og fremmest interesserede i at have et fælleskab hvor vi mødes. Men det virtuelle er også relevant.
 
 ### Bliv en del af fællesskabet
 

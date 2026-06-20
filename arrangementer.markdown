@@ -7,11 +7,11 @@ lang: da
 
 <div class="events-page">
   <h1>Arrangementer</h1>
-  <p class="page-intro">Oversigt over tegne- og malearrangementer. Kommande events først, efterfulgt af tidligere arrangementer.</p>
+  <p class="page-intro">Oversigt over tegne- og malearrangementer. Kommende events først, efterfulgt af tidligere arrangementer.</p>
 
-  <!-- Kommande Arrangementer -->
+  <!-- Kommende Arrangementer -->
   <section class="events-section">
-    <h2>Kommande Arrangementer</h2>
+    <h2>Kommende Arrangementer</h2>
     {% assign future_events = site.events | where_exp: "event", "event.date >= site.time" | sort: "date" %}
     {% if future_events.size > 0 %}
       <div class="events-list">
@@ -38,7 +38,7 @@ lang: da
         {% endfor %}
       </div>
     {% else %}
-      <p class="no-events">Der er pt. ingen kommande arrangementer. Tilmeld nyhedsbrevet for at være den første der hører om nye events!</p>
+      <p class="no-events">Der er pt. ingen Kommende arrangementer. Tilmeld nyhedsbrevet for at være den første der hører om nye events!</p>
     {% endif %}
   </section>
 
