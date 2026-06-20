@@ -966,38 +966,40 @@ a {
   }
 
   .nav-links {
-    display: none;
-    position: static;
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
     width: 100%;
     background: $bg-white;
     flex-direction: column;
-    padding: 8px 24px 12px;
+    justify-content: flex-start;
     gap: 0;
-    border-bottom: 1px solid $border-light;
-    box-shadow: 0 4px 12px $shadow;
+    z-index: 999;
 
     &.nav-open {
-      display: flex;
-      width: 100%;
+      display: flex !important;
     }
 
     a {
-      padding: 12px 0;
-      font-size: 1rem;
+      padding: 16px 24px;
+      font-size: 1.1rem;
+      font-weight: 500;
       color: $text-medium;
       text-align: center;
       width: 100%;
+      text-decoration: none;
 
       &:hover,
       &.nav-active {
-        background: $bg-warm;
         color: $primary;
       }
     }
   }
 
-  .nav-toggle {
-    display: flex;
+  .site-navigation .nav-toggle {
+    display: flex !important;
   }
 
   .hero {
