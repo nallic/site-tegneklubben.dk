@@ -36,6 +36,9 @@
             {% if page.location %}
             <span class="event-location">📍 {{ page.location }}</span>
             {% endif %}
+            {% if page.link %}
+            <a href="{{ page.link }}" class="event-link" target="_blank" rel="noopener noreferrer">🔗 Link</a>
+            {% endif %}
           </div>
         </header>
 

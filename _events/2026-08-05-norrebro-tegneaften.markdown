@@ -7,6 +7,7 @@ location: Nørrebro bibliotek
 description: Vi mødes og tegner frit på Nørrebro bibliotek. Alle er velkomne - medbring selv redskaber og papir.
 organizer: Tegneklubben
 contact: kontakt@tegneklubben.dk
+link: https://bibliotek.kk.dk/norrebro-bibliotek
 ---
 
 ## Tegneaften på Nørrebro Bibliotek
