@@ -20,8 +20,27 @@
 </nav>
 
 <script>
-  document.querySelector('.nav-toggle').addEventListener('click', function() {
-    this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
-    document.querySelector('.nav-links').classList.toggle('nav-open');
-  });
+  (function() {
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.querySelector('.nav-links');
+    if (!toggle || !links) return;
+
+    // Close menu when a link is clicked
+    links.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        links.classList.remove('nav-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Collapse menu on scroll after 100px
+    var scrollThreshold = 100;
+    window.addEventListener('scroll', function() {
+      var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > scrollThreshold) {
+        links.classList.remove('nav-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    }, { passive: true });
+  })();
 </script>

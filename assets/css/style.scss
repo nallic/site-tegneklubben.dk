@@ -71,6 +71,11 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 64px;
+
+    @media (max-width: 768px) {
+      height: auto;
+      flex-wrap: wrap;
+    }
   }
 
   .nav-brand {
@@ -948,21 +953,43 @@ a {
 
 // --- Responsive ---
 @media (max-width: 768px) {
+  .site-navigation {
+    position: relative;
+  }
+
+  .nav-container {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
   .nav-links {
     display: none;
-    position: absolute;
-    top: 64px;
-    left: 0;
-    right: 0;
+    position: static;
+    width: 100%;
     background: $bg-white;
     flex-direction: column;
-    padding: 20px 24px;
-    gap: 16px;
+    padding: 8px 24px 12px;
+    gap: 0;
     border-bottom: 1px solid $border-light;
     box-shadow: 0 4px 12px $shadow;
 
     &.nav-open {
       display: flex;
+      width: 100%;
+    }
+
+    a {
+      padding: 12px 0;
+      font-size: 1rem;
+      color: $text-medium;
+      text-align: center;
+      width: 100%;
+
+      &:hover,
+      &.nav-active {
+        background: $bg-warm;
+        color: $primary;
+      }
     }
   }
 
