@@ -5,7 +5,9 @@ lang: da
 ---
 
 <!-- Hero Section -->
-<section class="hero">
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>Tegneklubben</h1>
     <p class="hero-tagline">Tegne- og malearrangementer — find fællesskab og inspiration.</p>
@@ -13,7 +15,57 @@ lang: da
       {{ site.mailing_list.button_text }}
     </a>
   </div>
+
+  <!-- Artist legend badge (hidden until hover) -->
+  <div class="hero-artist-badge" id="heroArtistBadge">
+    <button class="badge-nav badge-nav-prev" id="badgeNavPrev" title="Forrige kunstværk">&#8249;</button>
+    <div class="badge-info" id="badgeInfo">
+      <span class="artist-name" id="artistName"></span>
+      <span class="artist-title" id="artistTitle"></span>
+    </div>
+    <button class="badge-nav badge-nav-next" id="badgeNavNext" title="Næste kunstværk">&#8250;</button>
+  </div>
+
+  <!-- Artwork data (injected by Jekyll from manifest) -->
+  <div id="heroArtworksData" style="display:none;"
+       data-baseurl="{{ site.baseurl }}"
+       data-artworks='[
+         {% for item in site.data.artworks-manifest.artworks %}
+         {
+           "filename": "{{ item.filename | escape }}",
+           "artist": "{{ item.artist | default: "Unknown" | escape }}",
+           "artist_link": "{{ item.artist_link | default: "" | escape }}",
+           "title": "{{ item.title | default: "Untitled" | escape }}",
+           "date": "{{ item.date | default: "Unknown" | escape }}",
+           "source_link": "{{ item.source_link | default: "" | escape }}",
+           "description": "{{ item.description | default: "" | escape }}"
+         }{% if forloop.last == false %},{% endif %}
+         {% endfor %}
+       ]'>
+  </div>
 </section>
+
+<!-- Artwork Modal Overlay -->
+<div class="artwork-modal" id="artworkModal" style="display:none;">
+  <div class="artwork-modal-backdrop"></div>
+  <div class="artwork-modal-content">
+    <button class="artwork-modal-close" id="artworkModalClose" title="Luk">&times;</button>
+    <div class="artwork-modal-body">
+      <img class="artwork-modal-image" id="artworkModalImage" src="" alt="">
+      <div class="artwork-modal-info">
+        <h2 id="artworkModalTitle"></h2>
+        <p class="artwork-modal-artist">
+          Kunstner: <a id="artworkModalArtistLink" href="" target="_blank" id="artworkModalArtist" style="display:none;"></a>
+        </p>
+        <p class="artwork-modal-date" id="artworkModalDate"></p>
+        <p class="artwork-modal-description" id="artworkModalDescription"></p>
+        <p class="artwork-modal-source">
+          <a id="artworkModalSourceLink" href="" target="_blank" id="artworkModalSourceText" style="display:none;"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Kommende Arrangementer -->
 <section class="section events-preview">

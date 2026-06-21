@@ -1,0 +1,27 @@
+# Artwork Rotation — Hero Section
+# Each entry represents one artwork that can appear as the hero background.
+# All fields except 'filename' are optional — missing fields use defaults:
+#   artist: "Unknown", title: "Untitled", date: "Unknown"
+#   artist_link, source_link, description: (empty)
+artworks:
+  - filename: "671201284_17897071356428367_1435083717852731311_n.jpg"
+    artist: "Skibedi Sketchy"
+    artist_link: "https://www.instagram.com/skibidi_sketchi/"
+    title: "A fish above some stones"
+    date: ""
+    source_link: "https://www.instagram.com/skibidi_sketchi/"
+    description: ""
+  - filename: "711906066_17903963637428367_1244777336653064433_n.jpg"
+    artist: "Skibedi Sketchy"
+    artist_link: "https://www.instagram.com/skibidi_sketchi/"
+    title: "A Chameleon"
+    date: ""
+    source_link: "https://www.instagram.com/skibidi_sketchi/"
+    description: ""
+  - filename: "713284067_17904114570428367_5015728303270159241_n.jpg"
+    artist: "Skibedi Sketchy"
+    artist_link: "https://www.instagram.com/skibidi_sketchi/"
+    title: "Just a drilling-handed killer robot"
+    date: ""
+    source_link: "https://www.instagram.com/skibidi_sketchi/"
+    description: ""
