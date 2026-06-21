@@ -1,0 +1,9 @@
+---
+title: "A Chameleon"
+artist: "Skibedi Sketchy"
+artist_link: "https://www.instagram.com/skibidi_sketchi/"
+source_link: "https://www.instagram.com/skibidi_sketchi/"
+date: 2026-01-01
+description: ""
+image: "711906066_17903963637428367_1244777336653064433_n.jpg"
+---

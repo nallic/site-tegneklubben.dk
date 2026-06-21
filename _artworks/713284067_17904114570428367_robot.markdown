@@ -1,0 +1,9 @@
+---
+title: "Just a drilling-handed killer robot"
+artist: "Skibedi Sketchy"
+artist_link: "https://www.instagram.com/skibidi_sketchi/"
+source_link: "https://www.instagram.com/skibidi_sketchi/"
+date: 2026-01-01
+description: ""
+image: "713284067_17904114570428367_5015728303270159241_n.jpg"
+---

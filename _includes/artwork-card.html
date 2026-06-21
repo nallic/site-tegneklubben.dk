@@ -1,0 +1,19 @@
+<article class="artwork-card">
+  <a href="{{ include.artwork.url | relative_url }}" class="artwork-card-link">
+    <div class="artwork-card-image-wrapper">
+      <img class="artwork-card-image" src="{{ '/assets/artworks/' | append: include.artwork.image | relative_url }}" alt="{{ include.artwork.title }}">
+    </div>
+    <div class="artwork-card-info">
+      <h3>{{ include.artwork.title }}</h3>
+      {% if include.artwork.artist %}
+      <p class="artwork-card-artist">
+        {% if include.artwork.artist_link %}
+          <a href="{{ include.artwork.artist_link }}" target="_blank" rel="noopener">{{ include.artwork.artist }}</a>
+        {% else %}
+          {{ include.artwork.artist }}
+        {% endif %}
+      </p>
+      {% endif %}
+    </div>
+  </a>
+</article>

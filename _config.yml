@@ -26,12 +26,24 @@ timezone: Europe/Copenhagen
 date_format: "%d.%m.%Y"
 encoding: UTF-8
 
-# Collections for events
+# Collections for events and artworks
 collections:
   events:
     output: true
     sort_by: date
     permalink: /arrangementer/:path/
+  artworks:
+    output: true
+    sort_by: date
+    permalink: /kunstvaerker/:path/
+
+# Defaults (layout for collections)
+defaults:
+  - scope:
+      path: ""
+      type: "artworks"
+    values:
+      layout: "artwork"
 
 # Navigation items
 nav:
@@ -39,6 +51,8 @@ nav:
     url: /
   - title: Arrangementer
     url: /arrangementer/
+  - title: Kunstværker
+    url: /kunstvaerker/
   - title: Om Tegneklubben
     url: /about/
   - title: Blog

@@ -1,0 +1,9 @@
+---
+title: "A fish above some stones"
+artist: "Skibedi Sketchy"
+artist_link: "https://www.instagram.com/skibidi_sketchi/"
+source_link: "https://www.instagram.com/skibidi_sketchi/"
+date: 2026-01-01
+description: ""
+image: "671201284_17897071356428367_1435083717852731311_n.jpg"
+---

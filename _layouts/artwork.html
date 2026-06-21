@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'da' }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Tegneklubben</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute }}">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+</head>
+
+<body>
+  {% include navigation.html %}
+
+  <main class="site-main">
+    <div class="artwork-page">
+      <a href="{{ '/kunstvaerker/' | relative_url }}" class="back-link">&larr; Tilbage til Kunstværker</a>
+      <article class="artwork-article">
+        <img class="artwork-full-image" src="{{ '/assets/artworks/' | append: page.image | relative_url }}" alt="{{ page.title }}">
+        <div class="artwork-info">
+          <h1>{{ page.title }}</h1>
+          {% if page.artist %}
+          <p class="artwork-artist">
+            Kunstner: {% if page.artist_link %}<a href="{{ page.artist_link }}" target="_blank" rel="noopener">{{ page.artist }}</a>{% else %}{{ page.artist }}{% endif %}
+          </p>
+          {% endif %}
+          {% if page.date %}
+          <p class="artwork-date">Dato: {{ page.date }}</p>
+          {% endif %}
+          {% if page.description %}
+          <div class="artwork-description">{{ page.description | markdownify }}</div>
+          {% endif %}
+          {% if page.source_link %}
+          <p class="artwork-source">
+            <a href="{{ page.source_link }}" target="_blank" rel="noopener">Kilde</a>
+          </p>
+          {% endif %}
+        </div>
+      </article>
+    </div>
+  </main>
+
+  {% include footer.html %}
+</body>
+
+</html>
