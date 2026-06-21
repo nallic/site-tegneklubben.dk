@@ -56,6 +56,10 @@ mailing_list:
 future: true
 theme: minima
 
+# Sass configuration — suppress deprecation warnings from third-party gems (Minima)
+sass:
+  quiet_deps: true
+
 # Plugins
 plugins:
   - jekyll-feed
