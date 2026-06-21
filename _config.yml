@@ -46,10 +46,10 @@ nav:
   - title: Kontakt
     url: /kontakt/
 
-# Mailing list (placeholder — update when provider is chosen)
+# Mailing list
 mailing_list:
-  provider: placeholder
-  url: "https://buttondown.email/tegneklubben"
+  provider: beehiiv
+  url: "https://tegneklubben.beehiiv.com/"
   button_text: Tilmeld Nyhedsbrev
 
 # Build settings
