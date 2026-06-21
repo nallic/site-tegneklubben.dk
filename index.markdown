@@ -52,22 +52,22 @@ lang: da
 <!-- Hvad Vi Gør -->
 <section class="section mission">
   <div class="container">
-    <h2>Hvad Vi Gør</h2>
+    <h2>Hvad er vores mission</h2>
     <div class="mission-grid">
       <div class="mission-card">
         <div class="mission-icon">&#127912;</div>
-        <h3>Find Arrangementer</h3>
-        <p>Oversigt over alle tegne- og malebegivenheder — ét sted.</p>
+        <h3>Arrangementer</h3>
+        <p>Vi afholder klubaftener og tegne events hvor man frit kan dukke op. Vi samler også alle tegne- og malebegivenheder vi syntes kan være relevante at kende til.</p>
       </div>
       <div class="mission-card">
         <div class="mission-icon">&#128101;</div>
         <h3>Mød Ligesindede</h3>
-        <p>Deltag i fælles tegnestunder, malerkurser og netværk med andre kunstentusiaster.</p>
+        <p>Deltag i meetups, mød andre der kan lide at tegne og male - alle er velkomne - fra Manga til klassisk tegning, fra abstrakt til fotorealistisk. Uanset din stil, så er du en del af fællesskabet.</p>
       </div>
       <div class="mission-card">
-        <div class="mission-icon">&#128221;</div>
-        <h3>Del Erfaringer</h3>
-        <p>Lær af andres teknikker, del dine egne og få inspiration til næste værk.</p>
+        <div class="mission-icon">&#128105;</div>
+        <h3>På tværs af alder</h3>
+        <p>Vores klub er for alle aldre og alle niveauer. Børn er velkomne til vores arrangementer, men vores møder er uden en underviser, så børn skal enten have en voksen med, eller være gamle nok til selv at deltage aktivt.</p>
       </div>
     </div>
   </div>

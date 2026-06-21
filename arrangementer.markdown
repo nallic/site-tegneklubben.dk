@@ -60,7 +60,8 @@ lang: da
             {% if event.location %}
               <p class="event-location">📍 {{ event.location }}</p>
             {% endif %}
-          </article>
+          </div>
+        </article>
       {% endfor %}
     {% else %}
       <p class="no-events">Der er pt. ingen tidligere arrangementer at vise.</p>
@@ -70,7 +71,7 @@ lang: da
   <!-- Submit Event -->
   <section class="events-section submit-event">
     <h2>Har Du Et Arrangement?</h2>
-    <p>Kender du et tegne- eller malearrangement, som vi bør vide om? Send os en besked!</p>
-    <a href="mailto:kontakt@tegneklubben.dk?subject=Arrangementstilbud" class="btn btn-secondary">Send Arrangementstilbud</a>
+    <p>Kender du til et tegne- eller malearrangement, som vi bør vide om? Send os et tip!</p>
+    <a href="mailto:kontakt@tegneklubben.dk?subject=Arrangementstilbud" class="btn btn-secondary">Send os et tip</a>
   </section>
 </div>

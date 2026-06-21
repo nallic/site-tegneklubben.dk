@@ -10,7 +10,7 @@ lang: da
 
   <section class="contact-section">
     <h2>Skriv Til Os</h2>
-    <p>Har du spørgsmål, forslag til arrangementer eller vil bare sige hej? Vi elsker at høre fra dig.</p>
+    <p>Har du spørgsmål, forslag til arrangementer eller vil bare sige hej? Vi vil gerne høre fra dig. Tegneklubben består af frivillige og vi er en non-profit klub.</p>
 
     <div class="contact-methods">
       <div class="contact-method">
@@ -50,11 +50,5 @@ lang: da
         </a>
       {% endif %}
     </div>
-  </section>
-
-  <section class="contact-section">
-    <h2>Arrangementstilbud</h2>
-    <p>Kender du et tegne- eller malearrangement, som Tegneklubben bør vide om? Send os dine detaljer!</p>
-    <a href="mailto:kontakt@tegneklubben.dk?subject=Arrangementstilbud" class="btn btn-primary">Send Arrangementstilbud</a>
   </section>
 </div>

@@ -18,7 +18,7 @@ Vi er glade for at kunne præsentere vores nye hjemmeside — der forhåbentlig 
 ### Hvem er vi?
 
 Vi er en gruppe af tegne- og maleentusiaster, der fik ideen til at mødes og tegne sammen, efter vi havde været på et FOF kursus i illustrerede fortællinger. 
-Vi syntes der manglede en noget organiseret hvor folk mødes med interessen i at tegne og fortælle historier.
+Vi syntes der manglede noget organiseret hvor folk mødes med interessen i at tegne og fortælle historier.
 
 Indtil videre er vi ikke så mange, men vi kan blive flere, hvis du vil være med ! - Vi starter med at mødes på biblioteker/cafeer og lign. Måske kan vi også 
 engang få lov at låne mere faste lokaler.

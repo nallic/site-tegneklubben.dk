@@ -10,16 +10,15 @@ lang: da
 
   <section class="about-section">
     <h2>Hvad er Tegneklubben?</h2>
-    <p>Tegneklubben er en forening for tegne- og maleentusiaster i hovedstadsområdet. Vi tror på, at kunst bedst deles — derfor samler vi mennesker, der brænder for det tegnende og malende under samme tag.</p>
+    <p>Tegneklubben er en klub for tegne- og maleentusiaster. Vi er en håndfuld mennesker der mødes og tegner sammen. Vi ser det som værdifuldt at komme væk fra skærmen, væk fra sociale medier og i stedet være sociale og dele vores glæde for at tegne og lave kunst sammen med mennesker.</p>
     <p>Uanset om du er nybegynder eller erfaren kunstner, er du velkommen. Hos os handler det ikke om perfektion — det handler om glæden ved at skabe sammen.</p>
   </section>
 
   <section class="about-section">
     <h2>Vores Mål</h2>
     <ul>
-      <li><strong>Saml arrangementer</strong> — Et centralt sted for alle tegne- og malebegivenheder</li>
-      <li><strong>Skab fællesskab</strong> — Mulighed for at møde ligesindede og danne tegne-grupper</li>
-      <li><strong>Del viden</strong> — Arranger kurser, workshops og udflugter til kunststeder</li>
+      <li><strong>Arrangementer</strong> — Et centralt overblik for alle tegne- og malebegivenheder - også dem vi ikke selv arrangerer, men som vi gerne deltager i.</li>
+      <li><strong>Skab fællesskab</strong> — Mulighed for at møde ligesindede og danne tegne-grupper på tværs af alder.</li>
       <li><strong>Inspirere</strong> — Motivere hinanden til at tegne og male mere</li>
     </ul>
   </section>
@@ -53,19 +52,19 @@ lang: da
     <div class="faq-list">
       <div class="faq-item">
         <h3>Er det gratis at deltage?</h3>
-        <p>Nogle af vores arrangementer er gratis, mens andre har en lille deltagergebyr (f.eks. til dækning af materialer eller lokaleleje). Det fremgår altid af arrangementets beskrivelse.</p>
+        <p>Vi prøver at holde vores klub aktiviteter gratis - vi mødes på offentlige steder og det forventes du selv medbringer materialer. Hvis vi mødes på en cafe, forventer vi du støtter stedet og køber noget forplejning.</p>
       </div>
       <div class="faq-item">
         <h3>Hvor ofte er der arrangementer?</h3>
-        <p>Vi har typisk 1-2 arrangementer om måneden, plus lejlighedsvis tegne-stjævn og udflugter til gallerier.</p>
+        <p>Vi har ikke en fast kadance for møder. Hvert møde annonceres under "Arrangementer" og aftales typisk mellem deltagerne. På sigt prøver vi at lave faste mødedage.</p>
       </div>
       <div class="faq-item">
         <h3>Kan jeg komme som nybegynder?</h3>
-        <p>Absolut! Vi har arrangementer for alle niveauer — fra helt nye til professionelle. Det vigtigste er din interesse for tegning og maleri.</p>
+        <p>Absolut! Vi har arrangementer for alle niveauer — fra helt nye til professionelle. Det vigtigste er din interesse for tegning og maleri og at du er nysgerrig og åben overfor de andres arbejde.</p>
       </div>
       <div class="faq-item">
         <h3>Hvordan kan jeg foreslå et arrangement?</h3>
-        <p>Kontakt os på <a href="mailto:kontakt@tegneklubben.dk">kontakt@tegneklubben.dk</a> eller brug linket i vores arrangementsside.</p>
+        <p>Kontakt os på <a href="mailto:kontakt@tegneklubben.dk">kontakt@tegneklubben.dk</a> eller brug linket i vores arrangementsside. Vi forbeholder os retten til at afvise et forslag. Vi har betalte arrangementer på, hvis de har en bred interesse.</p>
       </div>
     </div>
   </section>
