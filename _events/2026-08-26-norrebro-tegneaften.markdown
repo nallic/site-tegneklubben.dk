@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Tegneaften på Nørrebro Bibliotek
-date: 2026-08-05
+date: 2026-08-26
 tid: "17:00 - 19:00"
 location: Nørrebro bibliotek
 description: Vi mødes og tegner frit på Nørrebro bibliotek. Alle er velkomne - medbring selv redskaber og papir.
