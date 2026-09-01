@@ -15,7 +15,7 @@ Vi håber at kunne få lov til at få en permanent tilstedeværelse på et bibli
 
 ### Bliv en del af fællesskabet
 
-Tilmeld vores [nyhedsbrev](/kontakt/) for at være den første der hører om nye arrangementer.
+Tjek vores [arrangementsoversigt](/arrangementer/) for at være den første der hører om nye arrangementer.
 ---
 
 *Kom og tegn med os!*

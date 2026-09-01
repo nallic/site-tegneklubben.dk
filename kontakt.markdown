@@ -19,10 +19,10 @@ lang: da
         <a href="mailto:kontakt@tegneklubben.dk">kontakt@tegneklubben.dk</a>
       </div>
       <div class="contact-method">
-        <span class="contact-icon">&#128227;</span>
-        <h3>Nyhedsbrev</h3>
-        <p>Tilmeld dig for at modtage besked om nye arrangementer.</p>
-        <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-small">Tilmeld Nyhedsbrev</a>
+        <span class="contact-icon">&#127912;</span>
+        <h3>Arrangementer</h3>
+        <p>Se vores oversigt over kommende og tidligere arrangementer.</p>
+        <a href="{{ '/arrangementer/' | relative_url }}" class="btn btn-small">Se Arrangementer</a>
       </div>
     </div>
   </section>

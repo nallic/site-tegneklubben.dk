@@ -11,8 +11,8 @@ lang: da
   <div class="hero-content">
     <h1>Tegneklubben</h1>
     <p class="hero-tagline">Tegne- og malearrangementer — find fællesskab og inspiration.</p>
-    <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-primary">
-      {{ site.mailing_list.button_text }}
+    <a href="{{ '/arrangementer/' | relative_url }}" class="btn btn-primary">
+      Se Arrangementer
     </a>
   </div>
 
@@ -70,7 +70,7 @@ lang: da
           </div>
         {% endfor %}
       {% else %}
-        <p class="no-events">Der er pt. ingen Kommende arrangementer. Tilmeld nyhedsbrevet for at være den første der hører om nye events!</p>
+        <p class="no-events">Der er pt. ingen Kommende arrangementer. Tjek tilbage snart!</p>
       {% endif %}
     </div>
     <div class="section-cta">
@@ -124,13 +124,13 @@ lang: da
   </div>
 </section>
 
-<!-- Nyhedsbrev Tilmelding -->
-<section class="section newsletter">
+<!-- Kontakt -->
+<section class="section contact-cta">
   <div class="container">
-    <h2>Tilmeld Nyhedsbrevet</h2>
-    <p>Få besked om nye tegne- og malearrangementer. Vi sender kun relevant indhold — ingen spam.</p>
-    <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-primary btn-large">
-      {{ site.mailing_list.button_text }}
+    <h2>Spørgsmål eller Forslag?</h2>
+    <p>Kontakt os — vi svarer gerne på spørgsmål, forslag til arrangementer eller bare et hej.</p>
+    <a href="mailto:kontakt@tegneklubben.dk" class="btn btn-primary btn-large">
+      kontakt@tegneklubben.dk
     </a>
   </div>
 </section>

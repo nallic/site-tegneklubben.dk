@@ -38,7 +38,7 @@ lang: da
         {% endfor %}
       </div>
     {% else %}
-      <p class="no-events">Der er pt. ingen Kommende arrangementer. Tilmeld nyhedsbrevet for at være den første der hører om nye events!</p>
+      <p class="no-events">Der er pt. ingen Kommende arrangementer. Tjek tilbage snart!</p>
     {% endif %}
   </section>
 

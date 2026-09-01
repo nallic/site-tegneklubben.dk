@@ -13,7 +13,7 @@ Vi er glade for at kunne præsentere vores nye hjemmeside — der forhåbentlig 
 
 - **Arrangementer** — Oversigt over tegne- og malebegivenheder i hele hovedstaden
 - **Blog** — Referater fra vores møder, tegnetips og inspiration
-- **Nyhedsbrev** — Tilmeld dig for at få besked om nye events
+- **Kontakt** — Spørgsmål og forslag? Skriv til os på kontakt@tegneklubben.dk
 
 ### Hvem er vi?
 
@@ -27,7 +27,7 @@ Vi er først og fremmest interesserede i at have et fælleskab hvor vi mødes. M
 
 ### Bliv en del af fællesskabet
 
-Tilmeld vores [nyhedsbrev](/kontakt/) for at være den første der hører om nye arrangementer. Vi sender kun relevant indhold — ingen spam!
+Tjek vores [arrangementsoversigt](/arrangementer/) for at være den første der hører om nye arrangementer, eller skriv til os på [kontakt@tegneklubben.dk](mailto:kontakt@tegneklubben.dk)!
 
 ---
 

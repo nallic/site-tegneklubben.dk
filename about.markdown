@@ -28,9 +28,9 @@ lang: da
     <div class="steps-grid">
       <div class="step-card">
         <span class="step-number">1</span>
-        <h3>Tilmeld Nyhedsbrevet</h3>
-        <p>Få besked om nye arrangementer og tegnetips direkte i din indbakke.</p>
-        <a href="{{ site.mailing_list.url }}" target="_blank" class="btn btn-small">Tilmeld Dig</a>
+        <h3>Skriv Til Os</h3>
+        <p>Har du spørgsmål eller forslag? Send os en mail — vi svarer gerne.</p>
+        <a href="mailto:kontakt@tegneklubben.dk" class="btn btn-small">Send en Mail</a>
       </div>
       <div class="step-card">
         <span class="step-number">2</span>

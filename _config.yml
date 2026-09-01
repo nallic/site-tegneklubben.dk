@@ -62,12 +62,6 @@ nav:
   - title: Kontakt
     url: /kontakt/
 
-# Mailing list
-mailing_list:
-  provider: beehiiv
-  url: "https://tegneklubben.beehiiv.com/"
-  button_text: Tilmeld Nyhedsbrev
-
 # Build settings
 future: true
 theme: minima

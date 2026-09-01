@@ -519,15 +519,6 @@ a {
     }
   }
 
-  &.btn-subscribe {
-    background: $secondary;
-    color: white !important;
-
-    &:hover {
-      background: $secondary-dark;
-    }
-  }
-
   &.btn-small {
     padding: 8px 18px;
     font-size: 0.85rem;
@@ -733,8 +724,8 @@ a {
   }
 }
 
-// --- Newsletter Section ---
-.newsletter {
+// --- Contact CTA Section ---
+.contact-cta {
   background: linear-gradient(135deg, $secondary 0%, $secondary-dark 100%);
   color: white;
   text-align: center;
