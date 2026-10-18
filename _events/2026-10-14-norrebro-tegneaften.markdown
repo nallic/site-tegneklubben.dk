@@ -17,3 +17,4 @@ Vi mødes og tegner frit på Nørrebro bibliotek. Alle er velkomne - medbring se
 ---
 
 *Alle er velkomne uanset niveau. Kom og tegn i godt selskab!*
+
